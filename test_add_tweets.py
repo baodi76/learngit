@@ -4,7 +4,7 @@ from urllib import request
 import json
 
 
-no = int(input("how many number http trigger?"))
+no = int(input("how many number http trigger>>>>>>>>>"))
 for i in range(1,no+1):
         #req = request.Request('http://localhost:8080/greeting?name=User')
         end_point='http://localhost:8080/tweets'
